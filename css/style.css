@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 10px;
+}
+
+a {
+    color: #F3F3F3;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 13px;
+}
+
+ol{
+    margin-left: 16px;
+
+}
+
+
+.Caja1 {
+    
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+
+/*Cambiamos el color y tamaño del texto de la primer caja*/
+.textoo{
+    color: #FC200C;
+    font-size: 24px;
+}
+
+/*Cambiamos el color solo de la palabra comprando*/
+span{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+
+/*Seccion principal del Main*/
+section{
+     column-gap: 20px;
+     display: flex;
+     justify-content: space-around;
+     padding: 32px 16px;
+}
+
+
+.Caja2{
+    background-color: #FFFFFF;
+    height: 480px;
+    flex: 1;
+}
+
+
+h2{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #FC200C;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+.Generalizq{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;     /*Genera un espacio*/
+    padding: 20px;  
+}
+
+
+
+footer{
+    background-color:#222222 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 42px 13px 14px;
+}
+
+
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    display: block;
+    padding: 6px;
+}
+
